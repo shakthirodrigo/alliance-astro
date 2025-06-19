@@ -9,26 +9,26 @@ import vercel from '@astrojs/vercel';
 // https://astro.build/config
 export default defineConfig({
   // Replace with your actual domain
-  site: 'https://alliancemedical.com',
+  site: 'https://alliance-astro.vercel.app',
 
   integrations: [
     sitemap({
       customPages: [
-        'https://alliancemedical.com',
-        'https://alliancemedical.com/about-us',
-        'https://alliancemedical.com/gallery',
-        'https://alliancemedical.com/shop',
-        'https://alliancemedical.com/services',
-        'https://alliancemedical.com/contact-us',
-        'https://alliancemedical.com/parts-repair',
-        'https://alliancemedical.com/notary-service',
-        'https://alliancemedical.com/home-assesment',
-        'https://alliancemedical.com/walker-gallery',
-        'https://alliancemedical.com/wheelchair-gallery',
-        'https://alliancemedical.com/crutches',
-        'https://alliancemedical.com/suction-machine',
-        'https://alliancemedical.com/privacy-policy',
-        'https://alliancemedical.com/terms-conditions'
+        'https://alliance-astro.vercel.app',
+        'https://alliance-astro.vercel.app/about-us',
+        'https://alliance-astro.vercel.app/gallery',
+        'https://alliance-astro.vercel.app/shop',
+        'https://alliance-astro.vercel.app/services',
+        'https://alliance-astro.vercel.app/contact-us',
+        'https://alliance-astro.vercel.app/parts-repair',
+        'https://alliance-astro.vercel.app/notary-service',
+        'https://alliance-astro.vercel.app/home-assesment',
+        'https://alliance-astro.vercel.app/walker-gallery',
+        'https://alliance-astro.vercel.app/wheelchair-gallery',
+        'https://alliance-astro.vercel.app/crutches',
+        'https://alliance-astro.vercel.app/suction-machine',
+        'https://alliance-astro.vercel.app/privacy-policy',
+        'https://alliance-astro.vercel.app/terms-conditions'
       ],
       filter: (page) => {
         // Exclude any pages you don't want in the sitemap
